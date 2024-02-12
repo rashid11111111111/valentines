@@ -1,0 +1,52 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-color: #E78895;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 40vw;
+    flex-direction: column;
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 1.5px;
+}
+.first-cat{
+    min-width: 15vw;
+}
+
+.chibi{
+    display: none;
+    /* min-width: 15vw; */
+}
+
+.sad-1, .sad-2, .sad-3{
+    display: none;
+    /* min-width: 15vw; */
+    /* min-height: 15vh; */
+}
+/* .sad-2{
+    display: none;
+    min-width: 25vw;
+}*/
+
+.sad-3{
+    display: none;
+    min-width: 10vw;
+} 
+
+#buttons{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+#buttons .yes, .no{
+    width: 80px;
+    height: 80px;
+    letter-spacing: 1.5px;
+}
